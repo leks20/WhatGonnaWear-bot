@@ -16,7 +16,9 @@ git clone https://github.com/leks20/WhatGonnaWear_bot.git
 2) Установите виртуальное окружение, активируйте его и установите необхоимые зависимости:
 ```
 python3 -m venv venv
+
 . venv/bin/activate
+
 pip install -r requirements.txt
 ```
 3) Создайте в директории файл .env и поместите туда необходимые токены в формате telegram_token = 'ххххххххх', weather_token = 'ххххххххххх'
