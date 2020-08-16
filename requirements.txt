@@ -8,10 +8,8 @@ decorator==4.4.2
 entrypoints==0.3
 flake8==3.7.9
 future==0.18.2
-gunicorn==20.0.4
 idna==2.9
 isort==4.3.21
-lazy-object-proxy==1.4.3
 mccabe==0.6.1
 py==1.8.1
 pyasn1==0.4.8
@@ -19,8 +17,6 @@ pyasn1-modules==0.2.8
 pycodestyle==2.5.0
 pycparser==2.20
 pyflakes==2.1.1
-pyOpenSSL==19.1.0
-PySocks==1.7.1
 pyTelegramBotAPI==3.6.7
 python-dotenv==0.12.0
 requests==2.23.0

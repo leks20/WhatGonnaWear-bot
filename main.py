@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import requests
 from requests.exceptions import RequestException
 import telebot
-from telebot import apihelper, types
+from telebot import types
 
 
 load_dotenv()
@@ -13,7 +13,6 @@ telegram_token = os.getenv('telegram_token')
 weather_token = os.getenv('weather_token')
 
 bot = telebot.TeleBot(telegram_token)
-apihelper.proxy = {'https': 'socks5://51.83.2.136:1080'}
 URL = 'http://api.openweathermap.org/data/2.5/forecast'
 
 
